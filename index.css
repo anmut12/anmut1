@@ -40,19 +40,27 @@ body {
         background-color: #aaa;
         border-radius: 50%;
         overflow: hidden;
-        border: 1px solid #1DA1F2;
-                }
+        box-shadow:0 0 20px  #4ecdc4, 0 0 40px #349090;
+       animation: glow-border 1.5s infinite alternate ;
+}
+@keyframes glow-border {
+        0%{
+              box-shadow:0 0 10px #4ecdc4, 0 0 20px #349090      
+        }
+        100%{
+              box-shadow:0 0 30px #A3E6DE, 0 0 60px #4ecdc4
+        }}   
 .profile-picture img{
         max-width: 100%;
         transition: 0.5s ease;
         cursor: pointer;
                     }
 .profile-picture img:hover{
-        transform: scale(1.28)
+        transform: scale(1.1)
                         }
 .profile-name{
         margin-top: 10px;
-        font-size:24px;
+        font-size:18px;
         font-weight: bold;
         color: #1da1f2;
         text-transform: uppercase;
@@ -81,7 +89,7 @@ body {
         display: inline-block;
                 }
 .social-icon a {
-        margin: 10px;
+        margin: 0;
         border-radius: 50%;
         box-sizing:border-box;
         width: 30px;
@@ -102,3 +110,11 @@ body {
                     0px 0px 50px var(--color),
                     0px 0px 75px var(--color);
                     }
+/* .profile-picture:hover{
+background:var(--border);
+color:rgb(1, 1, 1);
+box-shadow: 0px 0px 5px var(--border),
+                0px 0px 25px var(--border),
+                0px 0px 50px var(--border),
+                0px 0px 75px var(--border);
+                } */
