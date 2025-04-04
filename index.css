@@ -178,3 +178,10 @@ body {
   margin-bottom: 20px;
   line-height: 1.6;
 }
+#typewriter {
+        font-family: 'Courier New', monospace;
+        /* border-right: 2px solid #fff; */
+        white-space: pre-wrap;
+        overflow: hidden;
+      }
+      
