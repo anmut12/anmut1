@@ -3,7 +3,13 @@
   const toFront = document.getElementById('toFront');
   const flipSound = document.getElementById('flipSound');
 
-  const text = `A person with a Bachelor of science Degree in Electromechanical Engineering and Certified in Different Courses and Activity. Experienced in Engineering jobs, coding and Marketing Both Professionally and non-Professionally. Fluent with English and Amharic`;
+  const text = `A highly motivated and multilingual professional with a Bachelor’s degree in Electromechanical Engineering and
+extensive training in sales, marketing, and technology. Certiﬁed in numerous professional development programs.
+Proven experience in both professional and volunteer roles across diverse industries. Guided by the principles of the
+5Cs ( Curious, Collaborative, Committed, Courageous, and Cheerful) I strive to create value, embrace challenges, and
+lead meaningful change. Passionate about building a dynamic and purpose-driven career in Engineering , Sales and
+Marketing, with a proactive approach to learning and leadership.
+. Fluent with English and Amharic`;
   let i = 0;
 
   function typeWriter() {
