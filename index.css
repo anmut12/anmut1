@@ -179,9 +179,19 @@ body {
   line-height: 1.6;
 }
 #typewriter {
-        font-family: 'Courier New', monospace;
-        /* border-right: 2px solid #fff; */
-        white-space: pre-wrap;
-        overflow: hidden;
-      }
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  max-height: 250px;
+  font-size: clamp(0.7rem, 1.2vw, 0.85rem);
+  padding-right: 4px;
+}
+#typewriter::-webkit-scrollbar {
+  width: 5px;
+}
+#typewriter::-webkit-scrollbar-thumb {
+  background: #1da1f2;
+  border-radius: 10px;
+}
+
       
